@@ -1,5 +1,5 @@
 <div id="top"></div>
-<h3>使用技術一覧</h3>
+##使用技術一覧
 <p style="display: inline">
 <img src="https://img.shields.io/badge/-Node.js-ccf5c6.svg?logo=Node.js&style=for-the-badge">
 <img src="https://img.shields.io/badge/-React-508d91.svg?logo=React&style=for-the-badge">
