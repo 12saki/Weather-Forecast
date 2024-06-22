@@ -1,5 +1,5 @@
 # Weather Forecast
-都市名を入力するとその都市の気候を表示するサイトです
+都市名を入力するとその都市の気候を表示するサイト(<a href="https://saaasuika.github.io/weather-forecast/">https://saaasuika.github.io/weather-forecast/</a>)です
 ![](./screenshot.png)
 
 ## 使用技術一覧
