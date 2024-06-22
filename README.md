@@ -1,4 +1,7 @@
 <div id="top"></div>
+都市名を入力するとその都市の気候を表示するサイトです
+![](./screenshot.png)
+
 <h2>使用技術一覧</h2>
 <p style="display: inline">
 <img src="https://img.shields.io/badge/-Node.js-ccf5c6.svg?logo=Node.js&style=for-the-badge">
