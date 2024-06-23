@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    font-family: 'Raleway','Noto Sans JP', sans-serif;
+    font-family: 'Kanit','Noto Sans JP', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     font-display: swap;
@@ -94,6 +94,7 @@ button:hover {
 .results-dates-container {
     display: flex;
     justify-content: space-between;
+    margin-top:2rem;
 }
 
 .results-date-group {
@@ -110,7 +111,7 @@ button:hover {
 }
 
 .results-temp > span {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #333;
 }
 
