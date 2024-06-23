@@ -38,15 +38,15 @@ const Results = (props: ResultsProps) => {
                         </div>
                         <div className="results-date-group-border">
                             <div className="results-date">{props.results.date2}</div>
-                            <div className="results-maxtemp">{props.results.max_temperature1}<span>/</span></div>
-                            <div className="results-mintemp">{props.results.min_temperature1} <span>°C</span></div>
+                            <div className="results-maxtemp">{props.results.max_temperature2}<span>/</span></div>
+                            <div className="results-mintemp">{props.results.min_temperature2} <span>°C</span></div>
                             <img src={props.results.icon2} alt="icon"/>
                             <span>{props.results.conditionText2}</span>
                         </div>
                         <div className="results-date-group">
                             <div className="results-date">{props.results.date3}</div>
-                            <div className="results-maxtemp">{props.results.max_temperature1}<span>/</span></div>
-                            <div className="results-mintemp">{props.results.min_temperature1} <span>°C</span></div>
+                            <div className="results-maxtemp">{props.results.max_temperature3}<span>/</span></div>
+                            <div className="results-mintemp">{props.results.min_temperature3} <span>°C</span></div>
                             <img src={props.results.icon3} alt="icon"/>
                             <span>{props.results.conditionText3}</span>
                         </div>
