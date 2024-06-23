@@ -60,9 +60,9 @@ const App = () => {
                     icon1: data.forecast.forecastday[0].day.condition.icon,
                     icon2: data.forecast.forecastday[1].day.condition.icon,
                     icon3: data.forecast.forecastday[2].day.condition.icon,
-                    date1: data.forecast.forecastday[0].date,
-                    date2: data.forecast.forecastday[1].date,
-                    date3: data.forecast.forecastday[2].date,
+                    date1: data.forecast.forecastday[0].date.substring(5),
+                    date2: data.forecast.forecastday[1].date.substring(5),
+                    date3: data.forecast.forecastday[2].date.substring(5),
                 })
                 setLoading(false)
                 setCity("")

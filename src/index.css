@@ -103,6 +103,10 @@ button:hover {
     align-items: center;
     flex: 1;
 }
+.results-date{
+    font-size: 2rem;
+    font-weight:bold;
+}
 
 .results-temp {
     font-size: 5rem;
