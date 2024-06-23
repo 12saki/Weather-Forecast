@@ -7,9 +7,12 @@ import Loading from "./components/Loading"
 type ResultsState = {  
     country: string
     cityName: string
-    temperature1: string
-    temperature2: string
-    temperature3: string
+    max_temperature1: string
+    max_temperature2: string
+    max_temperature3: string
+    min_temperature1: string
+    min_temperature2: string
+    min_temperature3: string
     conditionText1: string 
     conditionText2: string 
     conditionText3: string 
@@ -27,9 +30,12 @@ const App = () => {
     const [results, setResults] = useState<ResultsState>({
         country: "",
         cityName: "",
-        temperature1: "", 
-        temperature2: "", 
-        temperature3: "", 
+        max_temperature1: "", 
+        max_temperature2: "", 
+        max_temperature3: "", 
+        min_temperature1: "", 
+        min_temperature2: "", 
+        min_temperature3: "", 
         conditionText1: "",
         conditionText2: "",
         conditionText3: "",
@@ -51,9 +57,12 @@ const App = () => {
                 setResults({
                     country: data.location.country,
                     cityName: data.location.name,
-                    temperature1: data.forecast.forecastday[0].day.avgtemp_c,
-                    temperature2: data.forecast.forecastday[1].day.avgtemp_c,
-                    temperature3: data.forecast.forecastday[2].day.avgtemp_c,
+                    max_temperature1: data.forecast.forecastday[0].day.maxtemp_c,
+                    max_temperature2: data.forecast.forecastday[1].day.maxtemp_c,
+                    max_temperature3: data.forecast.forecastday[2].day.maxtemp_c,
+                    min_temperature1: data.forecast.forecastday[0].day.mintemp_c,
+                    min_temperature2: data.forecast.forecastday[1].day.mintemp_c,
+                    min_temperature3: data.forecast.forecastday[2].day.mintemp_c,
                     conditionText1: data.forecast.forecastday[0].day.condition.text,
                     conditionText2: data.forecast.forecastday[1].day.condition.text,
                     conditionText3: data.forecast.forecastday[2].day.condition.text,

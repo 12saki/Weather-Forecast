@@ -2,9 +2,12 @@ type ResultsProps = {
     results: { 
         country: string
         cityName: string
-        temperature1: string
-        temperature2: string
-        temperature3: string
+        max_temperature1: string
+        max_temperature2: string
+        max_temperature3: string
+        min_temperature1: string
+        min_temperature2: string
+        min_temperature3: string
         conditionText1: string 
         conditionText2: string 
         conditionText3: string 
@@ -28,19 +31,22 @@ const Results = (props: ResultsProps) => {
                     <div className="results-dates-container">
                         <div className="results-date-group">
                             <div className="results-date">{props.results.date1}</div>
-                            <div className="results-temp">{props.results.temperature1} <span>°C</span></div>
+                            <div className="results-maxtemp">{props.results.max_temperature1}<span>/</span></div>
+                            <div className="results-mintemp">{props.results.min_temperature1}<span>°C</span></div>
                             <img src={props.results.icon1} alt="icon"/>
                             <span>{props.results.conditionText1}</span>
                         </div>
                         <div className="results-date-group">
                             <div className="results-date">{props.results.date2}</div>
-                            <div className="results-temp">{props.results.temperature2} <span>°C</span></div>
+                            <div className="results-maxtemp">{props.results.max_temperature1}<span>/</span></div>
+                            <div className="results-mintemp">{props.results.min_temperature1} <span>°C</span></div>
                             <img src={props.results.icon2} alt="icon"/>
                             <span>{props.results.conditionText2}</span>
                         </div>
                         <div className="results-date-group">
                             <div className="results-date">{props.results.date3}</div>
-                            <div className="results-temp">{props.results.temperature3} <span>°C</span></div>
+                            <div className="results-maxtemp">{props.results.max_temperature1}<span>/</span></div>
+                            <div className="results-mintemp">{props.results.min_temperature1} <span>°C</span></div>
                             <img src={props.results.icon3} alt="icon"/>
                             <span>{props.results.conditionText3}</span>
                         </div>

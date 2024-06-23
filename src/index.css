@@ -108,13 +108,22 @@ button:hover {
     font-weight:bold;
 }
 
-.results-temp {
-    font-size: 5rem;
-    margin: 10px 0;
+.results-maxtemp {
+    font-size: 4rem;
+    margin-top: 2rem;
     color: #f15186;
 }
+.results-mintemp {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #5951f1;
+}
 
-.results-temp > span {
+.results-maxtemp > span {
+    font-size: 2rem;
+    color: #333;
+}
+.results-mintemp > span {
     font-size: 2rem;
     color: #333;
 }
