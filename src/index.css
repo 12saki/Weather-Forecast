@@ -97,6 +97,13 @@ button:hover {
     margin-top:2rem;
 }
 
+.results-date-group-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border-right: 1px solid #191414;
+}
 .results-date-group {
     display: flex;
     flex-direction: column;
